@@ -8,15 +8,6 @@
   />
 </p>
 
-<h1 align="center">Terraform Multi-Cloud Reference Architectures</h1>
-
-<p align="center">
-Provisioning Azure, AWS, and GCP infrastructure using Terraform
-</p>
-<h1 align="center">
-Terraform Multi-Cloud Reference Architectures
-</h1>
-
 <p align="center">
 Provisioning Azure, AWS, and Google Cloud infrastructure using Terraform
 </p>
@@ -169,6 +160,6 @@ This repository is useful for:
 
 # Author
 
-Created by Jimmy  
+Created by Jimmy Lubega 
 DevOps | Cloud Infrastructure | Terraform | Automation
 
