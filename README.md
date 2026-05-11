@@ -1,5 +1,28 @@
 # Terraform Multi-Cloud Reference Architectures
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hashicorp/terraform-website/main/content/source/img/logo-hashicorp.svg" width="140" alt="Terraform Logo"/>
+</p>
+
+<h1 align="center">
+Terraform Multi-Cloud Reference Architectures
+</h1>
+
+<p align="center">
+Provisioning Azure, AWS, and Google Cloud infrastructure using Terraform
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws" />
+  <img src="https://img.shields.io/badge/GCP-Cloud-lightgrey?logo=googlecloud" />
+  <img src="https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform" />
+  <img src="https://img.shields.io/badge/DevOps-Automation-success" />
+</p>
+
+---
+
+
 A professional reference repository demonstrating how Infrastructure as Code (IaC) can provision and manage resources across multiple cloud platforms using Terraform.
 
 This repository contains:
@@ -92,6 +115,35 @@ This repository contains:
 - IAM
 
 ---
+
+
+# Multi-Cloud Terraform Architecture
+
+```mermaid
+flowchart TD
+
+    Terraform[Terraform IaC]
+
+    Terraform --> Azure
+    Terraform --> AWS
+    Terraform --> GCP
+
+    Azure --> AKS
+    Azure --> AppService
+    Azure --> AzureSQL
+
+    AWS --> EC2
+    AWS --> ECS
+    AWS --> RDS
+
+    GCP --> GKE
+    GCP --> CloudRun
+    GCP --> CloudSQL
+
+    AKS --> Monitoring
+    ECS --> Monitoring
+    GKE --> Monitoring
+```
 
 # Ideal Use Cases
 

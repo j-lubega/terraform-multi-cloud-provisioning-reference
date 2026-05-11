@@ -1,0 +1,98 @@
+# =========================
+# Terraform
+# =========================
+
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Terraform lock file (OPTIONAL)
+# Keep this if collaborating or pinning providers
+# .terraform.lock.hcl
+
+# Terraform working directory
+.terraform/
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files
+terraform.tfvars
+terraform.tfvars.json
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pfx
+
+# =========================
+# IDE / Editor Files
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+
+# =========================
+# Windows
+# =========================
+
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Python (if scripting used)
+# =========================
+
+__pycache__/
+*.pyc
+
+# =========================
+# Node.js (if pipelines/tools used)
+# =========================
+
+node_modules/
+
+# =========================
+# Temporary Files
+# =========================
+
+tmp/
+temp/
+
+# =========================
+# Terraform CLI Config
+# =========================
+
+.terraformrc
+terraform.rc
