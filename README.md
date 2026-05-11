@@ -1,9 +1,18 @@
 # Terraform Multi-Cloud Reference Architectures
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hashicorp/terraform-website/main/content/source/img/logo-hashicorp.svg" width="140" alt="Terraform Logo"/>
+  <img 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+    alt="Terraform"
+    width="120"
+  />
 </p>
 
+<h1 align="center">Terraform Multi-Cloud Reference Architectures</h1>
+
+<p align="center">
+Provisioning Azure, AWS, and GCP infrastructure using Terraform
+</p>
 <h1 align="center">
 Terraform Multi-Cloud Reference Architectures
 </h1>
